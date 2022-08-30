@@ -53,7 +53,19 @@ main {
     position: relative;
     top: 20px;
     border-radius: 5px;
+    transition: transform 1s ease, padding 1s ease;
 }
+
+.button:hover {
+    padding: .82rem 2rem;
+    transform: translate(100px);
+}
+
+/* .messi-left .btn:hover {
+    padding-right: 30px;
+    background-color: yellow;
+    transform: rotate(180deg);
+} */
 
 /* nav style */
 /* =============================== */
@@ -91,6 +103,10 @@ main {
     font-weight: 700;
     padding: 10px;
 
+}
+
+.section-nav .nav_ul li a:active {
+    background-color: red;
 }
 
 /* ==================================== */
